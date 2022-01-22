@@ -21,8 +21,6 @@ export function play(gameId: u32, choice: string): string{
     
     let game = games.getSome(gameId);
     assert(choice == "Red" || choice == "Black" || choice == "Green", "Invalid Choice");
-    assert(game.gameState != GameState.Completed)
-    
     let message = "";
     if (game.lastChosenItem == "") 
     {
