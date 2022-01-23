@@ -38,4 +38,8 @@ near call <contract-id> joinGame '{"gameId": <game-id>}' --account_id <account-i
 near call <contract-id> play '{"gameId": <game-id>, "choice": <your color choice>}' --account_id <account-id>
 ```
 
+## Reminder
+```
+You have to install near client in order to play this game.
+```
 
